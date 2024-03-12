@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<?xml version="1.0" encoding="UTF-8"?>
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 515 555">
   <defs>
     <style>
@@ -15,13 +14,7 @@
         fill-rule: evenodd;
       }
 
-      .cls-4 {
-        fill: #fff;
-        font-family: BookmanOldStyle, 'Bookman Old Style';
-        font-size: 72px;
-      }
-
-      .cls-4, .cls-3 {
+      .cls-3 {
         stroke: #000;
         stroke-miterlimit: 10;
       }
@@ -33,5 +26,4 @@
   <path class="cls-2" d="M434.29,334.85h-190.95l-19.85,34.37h190.97l39.68,68.74h39.68l-59.53-103.11Z"/>
   <polygon class="cls-1" points="346.87 252.17 374.77 300.49 414.45 300.49 376.63 234.98 299.14 100.74 279.29 135.12 346.87 252.17"/>
   <polygon class="cls-1" points="318.45 382.59 318.45 382.59 262.65 382.59 242.82 416.96 318.45 416.96 473.45 416.96 453.61 382.59 318.45 382.59"/>
-  <text class="cls-4" transform="translate(26.67 519.55)"><tspan x="0" y="0">ALAN NAZAR</tspan></text>
 </svg>

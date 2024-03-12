@@ -222,7 +222,7 @@ a:link {
 }
 
 a:visited {
-  color: var(--visited-color);
+  color: var(#ffffff);
 }
 
 a:hover {
