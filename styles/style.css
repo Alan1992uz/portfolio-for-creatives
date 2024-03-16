@@ -147,7 +147,9 @@ h1 {
   margin-bottom: 1rem;
   color: var(--h1-color);
 }
-
+a {
+  font-family: var(--heading-typeface);
+}
 h2 {
   font-size: 2.25rem;
   font-family: var(--heading-typeface);
@@ -182,6 +184,7 @@ h6 {
 
 p {
   font-size: 1rem;
+  font-family: var(--heading-typeface);
   line-height: 1.3;
   margin-bottom: 1rem;
 }
@@ -257,6 +260,11 @@ a:active {
 
 .colored-link {
   color: var(--hyperlink-alternate-color);
+}
+
+.custom-navigation {
+  color: var(--overlay-title-color) !important;
+  font-size: 22px;
 }
 
 .custom-navigation:hover {
@@ -927,6 +935,7 @@ a.sub-navigation-link:hover {
 
   .project-image {
     min-height: 70vh;
+    margin-bottom: 15px;
     /* This should be deleted if you want to remove space between project images on project pages */
   }
 
