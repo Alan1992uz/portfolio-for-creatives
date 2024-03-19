@@ -70,8 +70,8 @@ html {
 
 :root {
   --body-typeface: "Inter", sans-serif;
-  --heading-typeface: "Yrsa", serif, sans-serif;
-  --project-title-typeface: "Eczar", serif;
+  --heading-typeface: "Yrsa", serif;
+  --project-title-typeface: "Yrsa", serif;
   --background-color: #fdfdfd;
   --background-color-about: #f5f5f5;
   --background-color-footer: #f5f5f5;
@@ -934,7 +934,6 @@ a.sub-navigation-link:hover {
   }
 
   .project-image {
-    min-height: 70vh;
     margin-bottom: 15px;
     /* This should be deleted if you want to remove space between project images on project pages */
   }
