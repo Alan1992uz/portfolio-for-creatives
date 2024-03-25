@@ -9,10 +9,11 @@
   );
 }
 
+
 .gradient-animation {
   background-size: 600%;
-  background-image: var(--gradient);
-  animation: bg-animation 90s infinite alternate;
+  background-image: linear-gradient(to top, #6d7815, #878f29, #a3a63c, #bfbe50, #dcd663);
+    animation: bg-animation 90s infinite alternate;
 }
 
 @keyframes bg-animation {
