@@ -79,26 +79,26 @@ html {
   --background-color-holding-page: rgba(215, 237, 74, 0.6);
   --h1-color: #eceaf3;
   --h2-color: #7fa706;
-  --h3-color: #5200ff;
-  --h4-color: #5200ff;
-  --h5-color: #5200ff;
-  --h6-color: #5200ff;
+  --h3-color: #7fa706;
+  --h4-color: #7fa706;
+  --h5-color: #7fa706;
+  --h6-color: #7fa706;
   --primary-text-color: #222;
-  --holding-page-title-color: #ebedf0;
-  --accent-color: #5200ff;
-  --overlay-color: #5200ff;
-  --overlay-title-color: #ffffff;
+  --holding-page-title-color: #eff1f5;
+  --accent-color: #7fa706;
+  --overlay-color: #787975;
+  --overlay-title-color: #f4f6fa;
   --overlay-description-color: #ffffff;
   --hyperlink-color: #0d2e01;
   --hyperlink-alternate-color: orangered;
   --hover-color: #111;
-  --visited-color: #5200ff;
+  --visited-color: #484404;
   --project-title-color: #25bc76;
   --project-sidebar-background-color: transparent;
   --project-sidebar-text-color: rgb(49, 2, 33);
   --heart-color: darkred;
   --holding-page-footer-color: #f8f8ff;
-  --text-selection-background-color: #5200ff;
+  --text-selection-background-color: #acacad;
   --linear-gradient-color-1: #ff057c;
   --linear-gradient-color-2: #8d0b93;
   --linear-gradient-color-3: #321575;
@@ -183,7 +183,8 @@ h6 {
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  text-align: justify;
   font-family: var(--heading-typeface);
   line-height: 1.3;
   margin-bottom: 1rem;
@@ -225,7 +226,7 @@ a:link {
 }
 
 a:visited {
-  color: var(#ffffff);
+  color: var(--visited-color);
 }
 
 a:hover {
@@ -288,6 +289,9 @@ a:active {
 
 .social-item {
   line-height: 1.3;
+  font-size: 2rem;
+  line-height: 1;
+  margin-bottom: 1rem;
 }
 
 .list-item {
@@ -297,7 +301,7 @@ a:active {
 }
 
 .project-description {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   line-height: 1.2;
   margin-bottom: 1rem;
 }
@@ -819,7 +823,7 @@ a.sub-navigation-link:hover {
   }
 
   h2 {
-    font-size: 2.25rem;
+    font-size: 3rem;
   }
 
   h3 {
@@ -890,7 +894,7 @@ a.sub-navigation-link:hover {
 
   .footer-item-3 {
     grid-row: 1 / 2;
-    grid-column: 3 / 4;
+    grid-column: 2 / 3;
   }
 
   .about-item-4 {
