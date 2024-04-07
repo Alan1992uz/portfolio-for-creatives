@@ -88,6 +88,8 @@ html {
   --accent-color: #7fa706;
   --overlay-color: #787975;
   --overlay-title-color: #f4f6fa;
+  --work-navigation: #f4f6fa;
+  --custom-navigation: #f4f6fa;
   --overlay-description-color: #ffffff;
   --hyperlink-color: #0d2e01;
   --hyperlink-alternate-color: orangered;
@@ -263,9 +265,13 @@ a:active {
   color: var(--hyperlink-alternate-color);
 }
 
+.work-navigation {
+  color: var(--work-navigation);
+  font-size: 1.2rem;
+}
 .custom-navigation {
-  color: var(--overlay-title-color) !important;
-  font-size: 22px;
+  color: var(--custom-navigation);
+  font-size: 1.2rem;
 }
 
 .custom-navigation:hover {
